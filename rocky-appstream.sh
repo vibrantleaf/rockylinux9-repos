@@ -1,6 +1,6 @@
 sudo dnf update -y
 
-# crb
+# appstream
 sudo dnf config-manager --set-enabled appstream -y
 sudo dnf clean all -y
 sudo dnf upgrade --refresh
