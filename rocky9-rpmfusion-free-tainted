@@ -1,0 +1,6 @@
+sudo dnf update -y
+
+# crb
+sudo dnf install rpmfusion-free-release-tainted -y
+sudo dnf clean all -y
+sudo dnf upgrade --refresh
